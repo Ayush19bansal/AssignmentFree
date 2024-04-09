@@ -2,7 +2,7 @@
 
 ## Hosted Link
 
-[Visit the hosted application](https://carbon-cell-two.vercel.app/)
+[Visit the hosted application](https://assignment-free.vercel.app/)
 
 ## Overview
 
