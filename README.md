@@ -83,7 +83,7 @@ The Carousel component is a React component used to display a carousel of images
 - **Image Carousel:** Displays a carousel of images that can be navigated using arrows or swiping gestures.
 - **Responsive Design:** Automatically adjusts to different screen sizes and devices for optimal viewing experience.
 - **Customizable Styling:** Allows customization of carousel styles using CSS for seamless integration with different application designs.
-![Responsive Navigation Bar](https://github.com/Ayush19bansal/Carbon-Cell/assets/118842033/e4156b1e-2b55-4bd1-8dc8-cb459f2620c2)
+
 
 ### Feedback Component
 
@@ -102,9 +102,12 @@ The UserContext provider is a React component used to manage and provide user da
 
 ## Project Final UI
 
-![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/10d0ac45-fe6e-44f4-8f49-3ad5481bdfb1)
-![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/4dc1e055-3bf3-46b5-aa25-21b90cef580a)
-![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/d4569da1-511f-41d1-863d-5f1c3f08383c)
+![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/c7442ec8-e5e7-41bc-ad5f-801eef0610c4)
+![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/0a08abfa-7793-4922-8271-3d745a8c07b5)
+![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/0b2e4118-df74-4ca4-9816-da4ac32564db)
+
+
+
 
 
 
