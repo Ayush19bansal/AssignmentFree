@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Karo Abhyaas NEET Preparation Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Hosted Link
 
-## Available Scripts
+[Visit the hosted application](https://carbon-cell-two.vercel.app/)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The Karo Abhyaas NEET Preparation Platform is a comprehensive online learning platform designed to assist students in preparing for the National Eligibility cum Entrance Test (NEET), a crucial examination for admission to undergraduate medical courses in India. With a focus on providing high-quality education and personalized learning experiences, our platform aims to empower students to achieve their goals of securing admission to prestigious medical colleges.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Comprehensive Study Material
+- Access to a vast repository of study material, including textbooks, reference guides, and practice questions, covering all subjects tested in the NEET exam.
+- Curated content by experienced educators and subject matter experts to ensure relevance and accuracy.
 
-### `npm test`
+### 2. Interactive Learning Modules
+- Engaging and interactive learning modules designed to reinforce key concepts and facilitate active learning.
+- Multimedia-rich content, including videos, animations, and simulations, to cater to diverse learning styles and preferences.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Personalized Learning Paths
+- Adaptive learning algorithms that analyze student performance and provide personalized recommendations for study plans and revision schedules.
+- Customizable quizzes and assessments to gauge understanding and track progress over time.
 
-### `npm run build`
+### 4. Live Classes and Webinars
+- Live interactive classes conducted by experienced faculty members, offering real-time doubt resolution and interactive discussions.
+- Regular webinars and guest lectures featuring renowned experts from the medical field to provide insights and guidance to aspiring medical students.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 5. Mock Tests and Performance Analytics
+- Full-length mock tests modeled after the NEET exam pattern to help students simulate exam conditions and assess their readiness.
+- Detailed performance analytics and progress reports to identify strengths and weaknesses, enabling targeted improvement strategies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 6. Community and Peer Support
+- Dedicated discussion forums and peer support groups to foster collaboration, knowledge sharing, and peer-to-peer learning among students.
+- Mentorship programs and counseling services to provide guidance and support to students throughout their NEET preparation journey.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Mission Statement
 
-### `npm run eject`
+At Karo Abhyaas, our mission is to empower aspiring medical students to realize their full potential and achieve success in the NEET exam. By providing access to high-quality education, personalized learning experiences, and a supportive learning community, we aim to equip students with the knowledge, skills, and confidence they need to excel in their academic pursuits and pursue their dreams of a career in medicine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Get Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Join us today and embark on your journey towards NEET success with Karo Abhyaas. Together, let's pave the way for a brighter future in the field of medicine!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+## Components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Navbar Component
 
-### Code Splitting
+The Navbar component is a reusable React component designed to create a navigation bar for web applications. It provides a responsive and user-friendly interface with options for dark mode and mobile compatibility.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features
 
-### Analyzing the Bundle Size
+- **Navigation Links:** Display links for navigating to different sections of the application.
+- **Hamburger Menu:** Toggleable menu icon for mobile devices to access navigation links.
+- **Dark Mode Toggle:** Switch between light and dark modes for improved readability and user experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Cards Component
 
-### Making a Progressive Web App
+The Cards component is a React component used to display feedback cards within an application. It utilizes data from a context provider (UserContext) to render feedback items dynamically.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Features
 
-### Advanced Configuration
+- **Dynamic Rendering:** Fetches feedback data from the UserContext provider and dynamically renders feedback cards based on the provided data.
+- **Structured Layout:** Each feedback card consists of a title (name) and a description (feedback), displayed in a structured layout for easy readability.
+- **Customizable Styling:** Allows customization of card styles using CSS classes for integration with different application designs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+1. Import the Cards component into your React application.
+2. Ensure that the UserContext provider is properly set up and provides feedback data to the Cards component.
+3. Include the Cards component in your application where feedback display is required.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Carousel Component
 
-### `npm run build` fails to minify
+The Carousel component is a React component used to display a carousel of images in an application. It utilizes the react-responsive-carousel library to create a responsive and visually appealing image carousel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Features
+
+- **Image Carousel:** Displays a carousel of images that can be navigated using arrows or swiping gestures.
+- **Responsive Design:** Automatically adjusts to different screen sizes and devices for optimal viewing experience.
+- **Customizable Styling:** Allows customization of carousel styles using CSS for seamless integration with different application designs.
+![Responsive Navigation Bar](https://github.com/Ayush19bansal/Carbon-Cell/assets/118842033/e4156b1e-2b55-4bd1-8dc8-cb459f2620c2)
+
+### Feedback Component
+
+The Feedback component is a React component used to display feedback items within an application. It utilizes data from a context provider (UserContext) to render feedback dynamically.
+
+### UserContext Provider
+
+The UserContext provider is a React component used to manage and provide user data within an application. It utilizes the createContext, useContext, and useState hooks from React to create a context for storing and accessing user-related information.
+
+## Features
+
+- **Data Management:** Manages user data such as feedback items within the application.
+- **Context Creation:** Creates a context (UserContextDemo) to store and share user data across multiple components.
+- **State Management:** Utilizes the useState hook to manage the state of user data within the context provider.
+- **Data Access:** Provides a custom hook (Getctx) for accessing user data from the context within other components.
+
+## Project Final UI
+
+![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/10d0ac45-fe6e-44f4-8f49-3ad5481bdfb1)
+![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/4dc1e055-3bf3-46b5-aa25-21b90cef580a)
+![image](https://github.com/Ayush19bansal/AssignmentFree/assets/118842033/d4569da1-511f-41d1-863d-5f1c3f08383c)
+
+
+
+
