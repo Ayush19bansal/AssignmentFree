@@ -4,6 +4,7 @@ import Carousell from './Carousell'
 import Cards from './Cards'
 import Feedback from './Feedback'
 import Footer from './Footer'
+import Login from './Login';
 
 function Home() {
     const [darkMode, setDarkMode] = useState(false);
@@ -14,7 +15,7 @@ function Home() {
   return (
     <div >
   
-  <div className={`cont ${darkMode ? 'dark' : ''}`}>
+  <div>
   <Navbar/>
       <div className='Carousel'>
         <Carousell/>
@@ -29,6 +30,7 @@ function Home() {
       </div>
 
       <Footer/>
+      
   </div>
      
     </div>

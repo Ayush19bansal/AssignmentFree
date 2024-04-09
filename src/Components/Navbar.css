@@ -50,15 +50,19 @@
   }
 
 
+
 .h{
-    height: 400px;
-}
+  height: 400px;
+    width: 100%;
+    /* border: 5px solid red; */
+  }
 
   .h img{
     height: 400px;
     width: 100%;
     object-fit: cover;
-    object-position: center;
+    
+    border: 5px solid red;
   }
 
 

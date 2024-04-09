@@ -12,7 +12,9 @@ function Cards() {
       {
         ctx.arr.map((item,index)=>(
             <div className='card' index={item.id}>
-            <div className='upper'></div>
+            <div className='upper'>
+              <img src={item.imgs}></img>
+            </div>
             <div className='lower'>
                 <h2>{item.name}</h2>
                 <p>{item.feedback} </p>

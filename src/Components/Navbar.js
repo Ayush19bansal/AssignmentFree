@@ -6,6 +6,7 @@ import './Navbar.css'; // You can style your navbar in this CSS file
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+  const [loginPageVisible, setLoginPageVisible] = useState(false);
 
   const handleDarkModeToggle = () => {
     setDarkMode(!darkMode);
@@ -24,7 +25,7 @@ const Navbar = () => {
         </div>
         <ul className={`navbar-menu ${showMenu ? 'active' : ''}`}>
           <li className="navbar-item">
-            <a href="#home" className="navbar-link" onClick={handleMenuToggle}>Home</a>
+            <a href="#home" className="navbar-link" id='blackk'>Home</a>
           </li>
           <li className="navbar-item">
             <a href="#about" className="navbar-link" onClick={handleMenuToggle}>Classes</a>
